@@ -1,4 +1,3 @@
-// src/App.js
 import React, { useState } from 'react';
 import ChatBot from './ChatBot';
 import Diagrama from './Diagrama';

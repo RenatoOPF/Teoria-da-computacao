@@ -1,4 +1,3 @@
-// src/Diagrama.js
 import React from 'react';
 
 const estados = [
