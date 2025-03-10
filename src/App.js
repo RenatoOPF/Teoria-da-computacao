@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
+import React, { useState } from 'react';
+import ChatBot from './ChatBot';
+import Diagrama from './Diagrama';
 
 function App() {
+  const [estadoAtual, setEstadoAtual] = useState('inicio'); // Estado inicial
+
+  const handleEstadoChange = (novoEstado) => {
+    setEstadoAtual(novoEstado);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-around', padding: '20px' }}>
+      <div style={{ width: '45%' }}>
+        <ChatBot onChangeEstado={handleEstadoChange} />
+      </div>
+      <div style={{ width: '45%' }}>
+        <Diagrama estadoAtual={estadoAtual} />
+      </div>
     </div>
   );
 }
