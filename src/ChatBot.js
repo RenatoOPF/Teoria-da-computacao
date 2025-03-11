@@ -14,26 +14,26 @@ function ChatBot({ onChangeEstado }) {
 
   const perguntasERespostas = {
     saldo: {
-      resposta: 'Para ver seu saldo, acesse a tela principal do aplicativo e consulte a área de "saldo" na parte central da tela.',
+      resposta: 'Para consultar seu saldo, acesse a tela principal do aplicativo e localize a seção "Saldo" logo no centro da tela. Caso tenha dúvidas, você pode entrar em contato com um atendente.',
       opcoes: ['Voltar', 'Falar com um atendente', 'Finalizar Chat']
     },
     extrato: {
-      resposta: 'Seu extrato pode ser consultado na área de "Extratos" no canto superior da tela principal do aplicativo.',
+      resposta: 'Para ver o extrato, vá até a área de "Extratos" no canto superior direito da tela principal do aplicativo. Você pode escolher o período e verificar todos os detalhes das transações realizadas.',
       opcoes: ['Voltar', 'Falar com um atendente', 'Finalizar Chat']
     },
     transferencia: {
-      resposta: 'Para fazer uma transferência, na tela principal do aplicativo, acesse a opção "Transferências" na parte superior da tela.',
+      resposta: 'Para realizar uma transferência, vá até a seção "Transferências" na parte superior da tela principal do aplicativo. Selecione o destinatário, insira o valor e confirme a operação.',
       opcoes: ['Voltar', 'Falar com um atendente', 'Finalizar Chat']
     },
     transferirParaHumano: {
-      resposta: 'Estamos transferindo seu atendimento para um atendente humano. Por favor, aguarde.',
+      resposta: 'Estamos transferindo seu atendimento para um atendente humano. Por favor, aguarde um momento enquanto fazemos a conexão.',
       opcoes: ['Finalizar Chat']
     },
     finalizar: {
-      resposta: 'O chat foi finalizado. Se precisar de mais ajuda, basta iniciar um novo chat.',
+      resposta: 'O chat foi finalizado. Se precisar de mais ajuda, basta iniciar um novo chat a qualquer momento, ou acesse a área de ajuda do aplicativo.',
       opcoes: []
     }
-  };
+  };  
 
   const handleClick = (opcao) => {
     const novaConversa = [...conversa, { origem: 'usuario', mensagem: opcao }];
@@ -105,7 +105,7 @@ function ChatBot({ onChangeEstado }) {
                 style={{
                   margin: '5px',
                   padding: '10px',
-                  backgroundColor: '#007bff',
+                  backgroundColor: '#007BFF',
                   color: 'white',
                   border: 'none',
                   cursor: 'pointer',
