@@ -2,12 +2,12 @@ import React from 'react';
 import diagramaImg from './diagrama.jpg'; // Importe sua imagem
 
 const estados = [
-  { nome: 'Inicio', id: 'inicio', top: '382px', left: '61px'},
-  { nome: 'Ver saldo', id: 'saldo', top: '257px', left: '383px'},
-  { nome: 'Consultar extrato', id: 'extrato', top: '497px', left: '383px'},
-  { nome: 'Fazer transferência', id: 'transferencia', top: '738px', left: '383px'},
-  { nome: 'Falar com atendente', id: 'transferirParaHumano', top: '15px', left: '383px'},
-  { nome: 'Finalizar Chat', id: 'finalizado', top: '383px', left: '705px'},
+  { nome: 'Inicio', id: 'inicio', top: '382px', left: '65px'},
+  { nome: 'Ver saldo', id: 'saldo', top: '257px', left: '387px'},
+  { nome: 'Consultar extrato', id: 'extrato', top: '497px', left: '387px'},
+  { nome: 'Fazer transferência', id: 'transferencia', top: '738px', left: '387px'},
+  { nome: 'Falar com atendente', id: 'transferirParaHumano', top: '15px', left: '387px'},
+  { nome: 'Finalizar Chat', id: 'finalizado', top: '383px', left: '709px'},
 ];
 
 const Diagrama = ({ estadoAtual }) => {
