@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Teoria-da-computacao/static/css/main.6a117e8a.css",
+    "main.js": "/Teoria-da-computacao/static/js/main.3b45a6ea.js",
+    "static/js/453.9c8709a5.chunk.js": "/Teoria-da-computacao/static/js/453.9c8709a5.chunk.js",
+    "static/media/diagrama.jpg": "/Teoria-da-computacao/static/media/diagrama.07ba42962a0b3f64c1cf.jpg",
+    "index.html": "/Teoria-da-computacao/index.html",
+    "main.6a117e8a.css.map": "/Teoria-da-computacao/static/css/main.6a117e8a.css.map",
+    "main.3b45a6ea.js.map": "/Teoria-da-computacao/static/js/main.3b45a6ea.js.map",
+    "453.9c8709a5.chunk.js.map": "/Teoria-da-computacao/static/js/453.9c8709a5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a117e8a.css",
+    "static/js/main.3b45a6ea.js"
+  ]
+}
